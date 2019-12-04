@@ -10,7 +10,11 @@ cd otp_src_22.1
 
 # install rebar3
 ```sh
+root用户根目录下
+mkdir download
+cd download
 git clone https://github.com/erlang/rebar3.git
 cd rebar3
 ./bootstrap
+ln -s /root/download/rebar3/rebar3 /usr/local/bin/rebar3
 ```
