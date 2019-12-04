@@ -16,5 +16,6 @@ cd download
 git clone https://github.com/erlang/rebar3.git
 cd rebar3
 ./bootstrap
-ln -s /root/download/rebar3/rebar3 /usr/local/bin/rebar3
+mv -f /root/download/rebar3 /usr/lib/
+ln -s /usr/lib/rebar3/rebar3 /usr/local/bin/rebar3
 ```
